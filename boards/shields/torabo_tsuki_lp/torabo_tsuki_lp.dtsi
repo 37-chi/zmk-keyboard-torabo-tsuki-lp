@@ -159,10 +159,3 @@
         power-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH | NRF_GPIO_DRIVE_H1)>;
     };
 };
-
-&trackball_listener {
-    scroller {
-        layers = <4>;
-        input-processors = <&zip_xy_to_scroll_mapper>;
-    };
-};
